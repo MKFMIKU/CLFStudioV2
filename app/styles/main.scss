@@ -1,0 +1,153 @@
+// bower:scss
+// endbower
+
+.icon {
+  width: 98px;
+  height: 98px;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+html {
+  height: 100%;
+  font-family: -apple-system,BlinkMacSystemFont,Neue Haas Grotesk Text Pro,Arial Nova,Segoe UI,Helvetica Neue,\.PingFang SC,PingFang SC,Microsoft YaHei,Microsoft JhengHei,Source Han Sans SC,Noto Sans CJK SC,Source Han Sans CN,Noto Sans SC,Source Han Sans TC,Noto Sans CJK TC,Hiragino Sans GB,sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #fafafa;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  background-color: transparent;
+  margin-bottom: 0;
+  border: 0;
+  font-size: 16px;
+  position: absolute;
+  width: 100%;
+  top: 30px;
+  left: 0;
+  z-index: 5;
+  .container{
+    height: 64px;
+    max-width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    a.logo{
+      height: 100%;
+      font-size: 24px;
+      line-height: 32px;
+      text-decoration: none;
+      color: #fff;
+      display: inline-block;
+    }
+    ul.menu{
+      vertical-align: middle;
+      height: 90%;
+      display: inline-block;
+      list-style: none;
+      li{
+        color: #d4d4d4;
+        float: left;
+        margin-right: 2rem;
+        font-weight: 300;
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+.header{
+  .background-video-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    .header-gradient-bg{
+      background: linear-gradient(150deg,#23213d,#2e383f);
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .inner{
+    position: relative;
+    z-index: 2;
+    .container{
+      max-width: 1080px;
+      margin: 200px auto;
+      text-align: center;
+      .heading{
+        text-align: center;
+        color: #fff;
+        font-size: 72px;
+        font-weight: 100;
+        margin-bottom: 1rem;
+      }
+      .heading-small{
+        text-align: center;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 100;
+        margin-bottom: 2rem;
+      }
+      .heading-go{
+        cursor: pointer;
+        border: 1px solid #fff;
+        background-color: rgba(155,163,175,0);
+        color: #fff;
+        display: inline-block;
+        padding: 5px 21px;
+        border-radius: 4px;
+      }
+    }
+  }
+}
+
+.content{
+  height: auto;
+  width: 80%;
+  margin: 400px auto;
+  text-align: center;
+  border-bottom: 1px solid #878787;
+  h1{
+    width: 100%;
+    text-align: center;
+    font-weight: 200;
+  }
+  p{
+    margin: auto;
+    max-width: 980px;
+    color: rgba(110, 105, 111, 0.76);
+  }
+  .services{
+    margin-top: 72px;
+    margin-bottom: 120px;
+    width: 100%;
+    ul{
+      width: 100%;
+      list-style: none;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      li{
+        cursor: pointer;
+        float: left;
+        text-align: center;
+        p{
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}
