@@ -69,6 +69,7 @@ nav{
 }
 
 .header{
+  height: 100%;
   .background-video-wrapper{
     position: absolute;
     top: 0;
@@ -120,7 +121,7 @@ nav{
 .content{
   height: auto;
   width: 80%;
-  margin: 50% auto 0;
+  margin: 0 auto;
   text-align: center;
   h1{
     width: 100%;
