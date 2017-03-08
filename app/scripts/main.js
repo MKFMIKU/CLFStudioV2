@@ -4,13 +4,13 @@ window.onload = function () {
 };
 
 function serIcon() {
-  $(".icon").hover(function (e) {
+  $('.icon').hover(function (e) {
     $(this).addClass('animated bounce');
   });
 }
 
 function animateBg() {
-  var animateBgDom = document.getElementById("animate-bg");
+  var animateBgDom = document.getElementById('animate-bg');
 
   var SEPARATION = 100, AMOUNTX = 50, AMOUNTY = 50;
   var camera, scene, renderer;
