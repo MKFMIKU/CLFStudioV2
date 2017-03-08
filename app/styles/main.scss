@@ -55,7 +55,10 @@ nav{
       display: inline-block;
       list-style: none;
       li{
-        color: #d4d4d4;
+        a{
+          color: #d4d4d4;
+          text-decoration: none;
+        }
         float: left;
         margin-right: 2rem;
         font-weight: 300;
@@ -117,9 +120,8 @@ nav{
 .content{
   height: auto;
   width: 80%;
-  margin: 400px auto;
+  margin: 50% auto 0;
   text-align: center;
-  border-bottom: 1px solid #878787;
   h1{
     width: 100%;
     text-align: center;
@@ -134,20 +136,64 @@ nav{
     margin-top: 72px;
     margin-bottom: 120px;
     width: 100%;
+    padding-bottom: 32px;
     ul{
       width: 100%;
+      padding: 0;
       list-style: none;
       display: flex;
       flex-wrap: nowrap;
       justify-content: space-around;
       li{
         cursor: pointer;
-        float: left;
         text-align: center;
         p{
           margin-top: 1rem;
         }
       }
     }
+  }
+  .point{
+    width: 100%;
+    min-height: 320px;
+    height: auto;
+    display: block;
+    margin-top: 2rem;
+    border-bottom: 1px solid #918f93;
+    .des{
+      display: inline-block;
+      width: 32%;
+    }
+    .img{
+      display: inline-block;
+      vertical-align: middle;
+      max-width: 480px;
+      float: left;
+      img{
+        width: 100%;
+      }
+      .zy{
+        height: 240px;
+        width: auto;
+      }
+    }
+    .left{
+      float: right;
+    }
+  }
+}
+
+.footer{
+  margin-top: -1rem;
+  padding: 50px 120px;
+  box-sizing: border-box;
+  background-color: #3d444f;
+  display: flex;
+  justify-content: space-between;
+  .address{
+    float: left;
+  }
+  p{
+    color: #b7b7b7;
   }
 }
